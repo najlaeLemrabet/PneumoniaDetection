@@ -10,5 +10,10 @@ below is chest x-ray diagnosed with pneumonia and one diagnosed as normal:
   <img src="/images/PNEUMONIA/person3_virus_17.jpeg" width="200" height="200" title="PNEUMONIA"/> 
 </p>
 
+the model reached in only 10 epochs :
+- Loss of 0.00976
+- Accuracy of 0.98849
+
+
 #### References
 VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION paper
