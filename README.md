@@ -6,7 +6,7 @@ the vgg16 (as described in the original paper below) pretrained model was used i
 below is chest x-ray diagnosed with pneumonia and one diagnosed as normal:
 
 <p float="left">
-  <img src="/images/NORMAL/IM-0001-0001.PNG" width="200" />
+  <img src="/images/NORMAL/IM-0001-0001.JPEG" width="200" />
   <img src="/ReadmeImages/vgg_architecture.PNG" width="100" /> 
 </p>
 
