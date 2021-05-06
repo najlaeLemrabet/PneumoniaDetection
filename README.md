@@ -7,7 +7,7 @@ below is chest x-ray diagnosed with pneumonia and one diagnosed as normal:
 
 <p float="left">
   <img src="/images/NORMAL/IM-0001-0001.jpeg" width="200"  height="200" title="NORMAL" />
-  <img src="/images/PNEUMONIA/person1_bacteria_1.jpeg" width="200" height="200" title="PNEUMONIA"/> 
+  <img src="/images/PNEUMONIA/person3_virus_17.jpeg" width="200" height="200" title="PNEUMONIA"/> 
 </p>
 
 #### References
