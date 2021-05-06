@@ -12,7 +12,7 @@ below is chest x-ray diagnosed with pneumonia and one diagnosed as normal:
 
 the model reached in only 10 epochs :
 - Loss of 0.00976
-- Accuracy of 0.98849
+- Accuracy of 0.988
 
 
 #### References
