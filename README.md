@@ -1,6 +1,11 @@
 # Chest X-ray Pneumonia Classification
 
-In this repository a classifier was trained to distinguish between chest x-ray with pneumonia and normal
+In this repository a classifier was trained to distinguish between chest x-ray with pneumonia and normal\
+The repository includes:
+- x-ray chest images Dataset
+- jupyter notebook containing all the steps: data loding ,data preprocessing, training, testinh
+- Pre-trained weights
+
 ## DATASET
 The dataset from kaggle contained 3 directories : train, test and validation
 I merged the 3 of them and resplit the data into train and test data as you can find in the notebook.
@@ -14,7 +19,7 @@ Below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as
 Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
 
 ## TRAINING
-To speed up the training, I used vgg16 pretrained model (as described in the original paper below), the vgg16 convolutional layers and a simple fully connected layers as classifier were used.
+I used vgg16 pretrained model (as described in the original paper below) to speed up the training, the vgg16 convolutional layers (backbone) and a simple fully connected layers as classifier.
 
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
@@ -27,11 +32,11 @@ Loss function and optimizer:
 - Mean square error loss
 - Adam optimizer
 
-## Result
+## RESULTS
 The model could reach in only 10 epochs :\
 loss = 0.00976\
 accuracy = 0.988
 
 
-#### References
+#### REFERENCES
 VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION paper
