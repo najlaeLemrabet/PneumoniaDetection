@@ -28,8 +28,8 @@ Mean square error loss\
 Adam optimizer
 
 ## Result
-The model could reach in only 10 epochs :
-**Loss = 0.00976**
+The model could reach in only 10 epochs :\
+**Loss = 0.00976**\
 **Accuracy = 0.988**
 
 
