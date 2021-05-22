@@ -23,7 +23,7 @@ EPOCH = 10\
 LR = 0.001\
 BATCH_ZISE = 10\
 
-Loss function and optimizer:\
+Loss function and optimizer:
 - Mean square error loss
 - Adam optimizer
 
