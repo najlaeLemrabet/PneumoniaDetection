@@ -1,6 +1,6 @@
 # Chest X-ray Pneumonia Classification
 
-In this repository a classifier was trained to distinguish between chest x-ray with pneumonia and normal
+In this repository a classifier was trained to distinguish between chest x-ray with pneumonia and normal\
 The repository includes:
 - x-ray chest images Dataset
 - jupyter notebook containing all the steps: data loding ,data preprocessing, training, testinh
