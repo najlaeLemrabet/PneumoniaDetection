@@ -19,7 +19,7 @@ Below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as
 Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
 
 ## TRAINING
-To speed up the training, I used vgg16 pretrained model (as described in the original paper below), the vgg16 convolutional layers (backbone) and a simple fully connected layers as classifier.
+I used vgg16 pretrained model (as described in the original paper below) to speed up the training, the vgg16 convolutional layers (backbone) and a simple fully connected layers as classifier.
 
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
@@ -32,11 +32,11 @@ Loss function and optimizer:
 - Mean square error loss
 - Adam optimizer
 
-## Result
+## RESULTS
 The model could reach in only 10 epochs :\
 loss = 0.00976\
 accuracy = 0.988
 
 
-#### References
+#### REFERENCES
 VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION paper
