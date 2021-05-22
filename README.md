@@ -19,7 +19,7 @@ Below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as
 Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
 
 ## TRAINING
-To speed up the training, I used vgg16 pretrained model (as described in the original paper below), the vgg16 convolutional layers (backbone) and a simple fully connected layers as classifier were used.
+To speed up the training, I used vgg16 pretrained model (as described in the original paper below), the vgg16 convolutional layers (backbone) and a simple fully connected layers as classifier.
 
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
