@@ -5,7 +5,7 @@ In this repository a classifier was trained to distinguish between chest x-ray w
 The dataset from kaggle contained 3 directories : train, test and validation
 I merged the 3 of them and resplit the data into train and test data as you can find in the notebook.
 
-below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as normal:
+Below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as normal:
 
 <p float="left">
   <img src="/dataset/NORMAL/IM-0001-0001.jpeg" width="200"  height="200" title="NORMAL" />
@@ -19,9 +19,9 @@ To speed up the training, I used vgg16 pretrained model (as described in the ori
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
 Hyperparameters:\
-EPOCH = 10\
-LR = 0.001\
-BATCH_ZISE = 10\
+epochs = 10\
+learning rate = 0.001\
+bacth size = 10\
 
 Loss function and optimizer:
 - Mean square error loss
@@ -29,8 +29,8 @@ Loss function and optimizer:
 
 ## Result
 The model could reach in only 10 epochs :\
-Loss = 0.00976\
-Accuracy = 0.988
+loss = 0.00976\
+accuracy = 0.988
 
 
 #### References
