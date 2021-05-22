@@ -18,10 +18,10 @@ To speed up the training, I used vgg16 pretrained model (as described in the ori
 
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
-Hyperparameters:\
-epochs = 10\
-learning rate = 0.001\
-bacth size = 10\
+Hyperparameters:
+- epochs = 10
+- learning rate = 0.001
+- bacth size = 10
 
 Loss function and optimizer:
 - Mean square error loss
