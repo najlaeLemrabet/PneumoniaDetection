@@ -4,7 +4,7 @@ In this repository a classifier was trained to distinguish between chest x-ray w
 The repository includes:
 - x-ray chest images Dataset
 - jupyter notebook containing all the steps: data loding ,data preprocessing, training, testinh
-- Pre-trained weights for
+- Pre-trained weights
 
 ## DATASET
 The dataset from kaggle contained 3 directories : train, test and validation
