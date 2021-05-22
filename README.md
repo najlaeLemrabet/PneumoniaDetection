@@ -29,8 +29,8 @@ optimizer = torch.optim.Adam(vgg16.parameters(), lr=LR)\
 
 ## Result
 The model could reach in only 10 epochs :
-- Loss of 0.00976
-- Accuracy of 0.988
+**Loss = 0.00976**
+**Accuracy = 0.988**
 
 
 #### References
