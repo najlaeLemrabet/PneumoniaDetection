@@ -11,6 +11,7 @@ below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as
   <img src="/dataset/NORMAL/IM-0001-0001.jpeg" width="200"  height="200" title="NORMAL" />
   <img src="/dataset/PNEUMONIA/person3_virus_17.jpeg" width="200" height="200" title="PNEUMONIA"/> 
 </p>
+Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
 
 ## Training
 To speed up the training, I used vgg16 pretrained model (as described in the original paper below), the vgg16 convolutional layers and a simple fully connected layers as classifier were used.
@@ -25,5 +26,4 @@ The model could reach in only 10 epochs :
 
 
 #### References
-- VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION paper
-- Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
+VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION paper
