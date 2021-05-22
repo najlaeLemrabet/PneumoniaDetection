@@ -33,6 +33,9 @@ Loss function and optimizer:
 - Adam optimizer
 
 ## RESULTS
+![GitHub Logo](/assets/accuracy.PNG)
+
+
 The model could reach in only 10 epochs :\
 loss = 0.00976\
 accuracy = 0.988
