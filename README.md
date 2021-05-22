@@ -1,6 +1,11 @@
 # Chest X-ray Pneumonia Classification
 
 In this repository a classifier was trained to distinguish between chest x-ray with pneumonia and normal
+The repository includes:
+- x-ray chest images Dataset
+- jupyter notebook containing all the steps: data loding ,data preprocessing, training, testinh
+- Pre-trained weights for
+
 ## DATASET
 The dataset from kaggle contained 3 directories : train, test and validation
 I merged the 3 of them and resplit the data into train and test data as you can find in the notebook.
@@ -14,7 +19,7 @@ Below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as
 Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
 
 ## TRAINING
-To speed up the training, I used vgg16 pretrained model (as described in the original paper below), the vgg16 convolutional layers and a simple fully connected layers as classifier were used.
+To speed up the training, I used vgg16 pretrained model (as described in the original paper below), the vgg16 convolutional layers (backbone) and a simple fully connected layers as classifier were used.
 
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
