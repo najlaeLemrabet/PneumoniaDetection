@@ -7,15 +7,8 @@ I merged the 3 of them and resplit the data into train and test data as you can 
 
 Below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as normal:
 
-<figure>
-  <img src="/dataset/NORMAL/IM-0001-0001.jpeg" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-
 <p float="left">
   <img src="/dataset/NORMAL/IM-0001-0001.jpeg" width="200"  height="200" title="NORMAL" />
-    <img src="path_to_image" alt>
-    <em>image_caption</em>
   <img src="/dataset/PNEUMONIA/person3_virus_17.jpeg" width="200" height="200" title="PNEUMONIA"/> 
 </p>
 Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
