@@ -18,6 +18,14 @@ To speed up the training, I used vgg16 pretrained model (as described in the ori
 
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
+Hyperparameters:
+EPOCH = 10\
+LR = 0.001\
+BATCH_ZISE = 10\
+
+#### Loss function and optimizer:
+loss_function = nn.MSELoss()\
+optimizer = torch.optim.Adam(vgg16.parameters(), lr=LR)\
 
 ## Result
 The model could reach in only 10 epochs :
