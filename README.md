@@ -18,19 +18,19 @@ To speed up the training, I used vgg16 pretrained model (as described in the ori
 
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
-#### Hyperparameters:
+Hyperparameters:\
 EPOCH = 10\
 LR = 0.001\
-BATCH_ZISE = 10
+BATCH_ZISE = 10\
 
-#### Loss function and optimizer:
+Loss function and optimizer:\
 Mean square error loss\
-Adam optimizer
+Adam optimizer\
 
-## Result
+Result\
 The model could reach in only 10 epochs :\
-**Loss = 0.00976**\
-**Accuracy = 0.988**
+Loss = 0.00976\
+Accuracy = 0.988
 
 
 #### References
