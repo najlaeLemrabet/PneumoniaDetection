@@ -9,6 +9,8 @@ Below is an example of chest x-ray diagnosed with pneumonia and one diagnosed as
 
 <p float="left">
   <img src="/dataset/NORMAL/IM-0001-0001.jpeg" width="200"  height="200" title="NORMAL" />
+    <img src="path_to_image" alt>
+    <em>image_caption</em>
   <img src="/dataset/PNEUMONIA/person3_virus_17.jpeg" width="200" height="200" title="PNEUMONIA"/> 
 </p>
 Kaggle Dataset : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data
