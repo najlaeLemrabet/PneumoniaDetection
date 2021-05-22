@@ -24,8 +24,8 @@ LR = 0.001\
 BATCH_ZISE = 10
 
 #### Loss function and optimizer:
-loss_function = nn.MSELoss()\
-optimizer = torch.optim.Adam(vgg16.parameters(), lr=LR)\
+Mean square error loss\
+Adam optimizer
 
 ## Result
 The model could reach in only 10 epochs :
