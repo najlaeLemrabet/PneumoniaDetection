@@ -27,7 +27,7 @@ Loss function and optimizer:
 - Mean square error loss
 - Adam optimizer
 
-## Result\
+## Result
 The model could reach in only 10 epochs :\
 Loss = 0.00976\
 Accuracy = 0.988
