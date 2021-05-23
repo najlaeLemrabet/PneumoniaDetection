@@ -36,10 +36,9 @@ Loss function and optimizer:
 ![GitHub Logo](/assets/accuracy.PNG)
 
 
-The model could reach in only 10 epochs :\
-loss = 0.00976\
-accuracy = 0.988
-
+The model could reach in only 60 epochs :\
+training accuracy = 0.0.9869
+testing accuracy = 1.0
 
 #### REFERENCES
 VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION paper
