@@ -37,7 +37,7 @@ Loss function and optimizer:
 
 
 The model could reach in only 60 epochs :\
-training accuracy = 0.0.9869
+training accuracy = 0.9869
 testing accuracy = 1.0
 
 #### REFERENCES
