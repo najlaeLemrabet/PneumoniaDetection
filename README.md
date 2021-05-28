@@ -24,13 +24,18 @@ I used vgg16 pretrained model (as described in the original paper below) to spee
 ![GitHub Logo](/assets/vgg_architecture.PNG)
 
 Hyperparameters:
-- epochs = 10
-- learning rate = 0.001
-- bacth size = 10
+- learning rate = 2e-4
+- batch size = 16
+- image size = 256
+- l1 lambda = 100
 
 Loss function and optimizer:
-- Mean square error loss
-- Adam optimizer
+- optimizer:
+  - generator : Adam
+  - optimizer : Adam
+- loss function:
+  - generator : BCE + L1_loss * L1_lambda
+  - discriminator : BCE
 
 ## RESULTS
 ![GitHub Logo](/assets/accuracy.PNG)
